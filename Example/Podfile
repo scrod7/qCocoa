@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'qCocoa_Example' do
+  pod 'qCocoa', :path => '../'
+
+  target 'qCocoa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
