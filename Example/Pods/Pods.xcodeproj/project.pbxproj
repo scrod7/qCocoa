@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0258F994E92B1A5F77645457BBCD4981 /* qCocoa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1F3B13C5B4D137D5777A379DD72627 /* qCocoa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		147B5BB9297A41FB81E74DA86536852D /* Pods-qCocoa_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1F6CD4ED0FE6C9C50380BFACC445112 /* Pods-qCocoa_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B883B1BCB4F867B5041119BEF2E58EB /* qCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F9A01B44FE4C210C20B58FB42BC89 /* qCocoa-dummy.m */; };
+		1CF08FB594695E914116D4A81F79A2EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		73957167D66AA595EB2B66A6347F04F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		81B5409627BAB6B477004B46B85CEE74 /* qCocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 3718BB69A2D6F9F3C250BF3CFF638787 /* qCocoa.m */; };
+		882E643EE7C2793D73F11DAB40E9D6B2 /* Pods-qCocoa_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B110980FF3BE258D6F2BF687DAC681C2 /* Pods-qCocoa_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D68FEE2EBBEFE969853A1A7049A9616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9EECE3AFB7484E869F97084DD2A5AA60 /* Pods-qCocoa_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDCF54279F0E69040BF7E6796C6696C /* Pods-qCocoa_Example-dummy.m */; };
+		A04F487EA55164E80492C35EBA8E8905 /* Pods-qCocoa_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A7BB4456EA85878596E2572C324135 /* Pods-qCocoa_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14B84AA05879C127B0D6C0ABDDEAA5AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB72D19CDC92184F4FDA07E8673980BB;
+			remoteInfo = qCocoa;
+		};
+		8F99D35D982654BC168C59C97A8C3FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F487D0E06A3D79E0E902FA6FF2ED3ECC;
+			remoteInfo = "Pods-qCocoa_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036176FCD7EE3F78D58CCF894A676206 /* qCocoa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = qCocoa.modulemap; sourceTree = "<group>"; };
+		08684B57AC8BC955552B934F52F3235C /* Pods-qCocoa_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qCocoa_Example-frameworks.sh"; sourceTree = "<group>"; };
+		15610F89B19859F45F0598494530EEBA /* qCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qCocoa.xcconfig; sourceTree = "<group>"; };
+		20048BBDAA283F5F76E6DA98EE6DFED8 /* Pods-qCocoa_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qCocoa_Tests-Info.plist"; sourceTree = "<group>"; };
+		3718BB69A2D6F9F3C250BF3CFF638787 /* qCocoa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = qCocoa.m; path = qCocoa/Classes/qCocoa.m; sourceTree = "<group>"; };
+		417F1B05179672C512DBD534C60AE177 /* Pods-qCocoa_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qCocoa_Tests.modulemap"; sourceTree = "<group>"; };
+		4EA977DFB7A534FF010CE0B8850A5202 /* Pods-qCocoa_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qCocoa_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		549C4682F80004B908D04648FD15AAD4 /* Pods-qCocoa_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qCocoa_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A6D138EB3880AD77F3E799560F5B8DE /* Pods-qCocoa_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qCocoa_Example-Info.plist"; sourceTree = "<group>"; };
+		6E1F3B13C5B4D137D5777A379DD72627 /* qCocoa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qCocoa-umbrella.h"; sourceTree = "<group>"; };
+		7739C750EDE95E71B33E2BC6AFDDBE33 /* Pods-qCocoa_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-qCocoa_Example.modulemap"; sourceTree = "<group>"; };
+		8A3F9A01B44FE4C210C20B58FB42BC89 /* qCocoa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qCocoa-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1F6CD4ED0FE6C9C50380BFACC445112 /* Pods-qCocoa_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qCocoa_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A21779A22E85C39587E916E5B84DF193 /* Pods_qCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qCocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33F513677732EFCF2DFB9B5F52B9DE4 /* Pods-qCocoa_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qCocoa_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB7E1807B0AD9D032610573170A2699B /* Pods-qCocoa_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qCocoa_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ACC83225364F0F8CDF429648474260AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B110980FF3BE258D6F2BF687DAC681C2 /* Pods-qCocoa_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-qCocoa_Example-umbrella.h"; sourceTree = "<group>"; };
+		B6A20F4EA8D535D3210415653498C595 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5C1E4CC1803A508DD5610A35A2E00FC /* Pods-qCocoa_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qCocoa_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBDF2B23A55E2ADC9F6BA576CAF11573 /* Pods-qCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CFDCF54279F0E69040BF7E6796C6696C /* Pods-qCocoa_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qCocoa_Example-dummy.m"; sourceTree = "<group>"; };
+		D92AE1B95A01D6A948B307E2DAF162A4 /* Pods-qCocoa_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qCocoa_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9D4CAE968E1F3C6DF75C93E1CB02ED8 /* qCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = qCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3208EDEA1AA8C7E03CB820E1BABC6C2 /* qCocoa.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = qCocoa.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3D3E364148F2540B2403FDADE494828 /* Pods_qCocoa_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qCocoa_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6842AF1B088F6D44E0D0EDC64B04DA /* Pods-qCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F326B8AC1F7C27914AA089BB7480E0BD /* qCocoa-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "qCocoa-Info.plist"; sourceTree = "<group>"; };
+		F7A7BB4456EA85878596E2572C324135 /* Pods-qCocoa_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qCocoa_Tests-dummy.m"; sourceTree = "<group>"; };
+		F907C9B1BC6E9D9A228B43AE02A3A0B5 /* qCocoa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qCocoa-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43074D56642A254554CBF04997C58B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D68FEE2EBBEFE969853A1A7049A9616 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F1263898E2F57EB88531E587C748C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF08FB594695E914116D4A81F79A2EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD5FB81C1EB545F894953B89538AF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73957167D66AA595EB2B66A6347F04F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		200FC6D8D1D0EA56603CB0DCC745B9B4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D48AC3A5E152C8BB1FE11217FE211072 /* qCocoa */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54168360FAE8E1CB2836DFC5E7D78847 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ACC83225364F0F8CDF429648474260AC /* LICENSE */,
+				E3208EDEA1AA8C7E03CB820E1BABC6C2 /* qCocoa.podspec */,
+				B6A20F4EA8D535D3210415653498C595 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		72C9E42E085F5766D061431985DFC14A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				036176FCD7EE3F78D58CCF894A676206 /* qCocoa.modulemap */,
+				15610F89B19859F45F0598494530EEBA /* qCocoa.xcconfig */,
+				8A3F9A01B44FE4C210C20B58FB42BC89 /* qCocoa-dummy.m */,
+				F326B8AC1F7C27914AA089BB7480E0BD /* qCocoa-Info.plist */,
+				F907C9B1BC6E9D9A228B43AE02A3A0B5 /* qCocoa-prefix.pch */,
+				6E1F3B13C5B4D137D5777A379DD72627 /* qCocoa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Target Support Files/qCocoa";
+			sourceTree = SOURCE_ROOT;
+		};
+		908F7DC4620C43C0AA77CDF492C301B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BA16B8734C79715878DF9582DC0513 /* Pods-qCocoa_Example */,
+				C082B513E8C19182993AACAC13643C0F /* Pods-qCocoa_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C082B513E8C19182993AACAC13643C0F /* Pods-qCocoa_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				417F1B05179672C512DBD534C60AE177 /* Pods-qCocoa_Tests.modulemap */,
+				A33F513677732EFCF2DFB9B5F52B9DE4 /* Pods-qCocoa_Tests-acknowledgements.markdown */,
+				D92AE1B95A01D6A948B307E2DAF162A4 /* Pods-qCocoa_Tests-acknowledgements.plist */,
+				F7A7BB4456EA85878596E2572C324135 /* Pods-qCocoa_Tests-dummy.m */,
+				20048BBDAA283F5F76E6DA98EE6DFED8 /* Pods-qCocoa_Tests-Info.plist */,
+				A1F6CD4ED0FE6C9C50380BFACC445112 /* Pods-qCocoa_Tests-umbrella.h */,
+				EB6842AF1B088F6D44E0D0EDC64B04DA /* Pods-qCocoa_Tests.debug.xcconfig */,
+				549C4682F80004B908D04648FD15AAD4 /* Pods-qCocoa_Tests.release.xcconfig */,
+			);
+			name = "Pods-qCocoa_Tests";
+			path = "Target Support Files/Pods-qCocoa_Tests";
+			sourceTree = "<group>";
+		};
+		C0BA16B8734C79715878DF9582DC0513 /* Pods-qCocoa_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7739C750EDE95E71B33E2BC6AFDDBE33 /* Pods-qCocoa_Example.modulemap */,
+				C5C1E4CC1803A508DD5610A35A2E00FC /* Pods-qCocoa_Example-acknowledgements.markdown */,
+				4EA977DFB7A534FF010CE0B8850A5202 /* Pods-qCocoa_Example-acknowledgements.plist */,
+				CFDCF54279F0E69040BF7E6796C6696C /* Pods-qCocoa_Example-dummy.m */,
+				08684B57AC8BC955552B934F52F3235C /* Pods-qCocoa_Example-frameworks.sh */,
+				5A6D138EB3880AD77F3E799560F5B8DE /* Pods-qCocoa_Example-Info.plist */,
+				B110980FF3BE258D6F2BF687DAC681C2 /* Pods-qCocoa_Example-umbrella.h */,
+				CBDF2B23A55E2ADC9F6BA576CAF11573 /* Pods-qCocoa_Example.debug.xcconfig */,
+				AB7E1807B0AD9D032610573170A2699B /* Pods-qCocoa_Example.release.xcconfig */,
+			);
+			name = "Pods-qCocoa_Example";
+			path = "Target Support Files/Pods-qCocoa_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				200FC6D8D1D0EA56603CB0DCC745B9B4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F3510D73F792ABBB88DE15F73405D9DB /* Products */,
+				908F7DC4620C43C0AA77CDF492C301B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D48AC3A5E152C8BB1FE11217FE211072 /* qCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				3718BB69A2D6F9F3C250BF3CFF638787 /* qCocoa.m */,
+				54168360FAE8E1CB2836DFC5E7D78847 /* Pod */,
+				72C9E42E085F5766D061431985DFC14A /* Support Files */,
+			);
+			name = qCocoa;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3510D73F792ABBB88DE15F73405D9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A21779A22E85C39587E916E5B84DF193 /* Pods_qCocoa_Example.framework */,
+				E3D3E364148F2540B2403FDADE494828 /* Pods_qCocoa_Tests.framework */,
+				D9D4CAE968E1F3C6DF75C93E1CB02ED8 /* qCocoa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6110BF6F54420C6DB203C8FA9A3609C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147B5BB9297A41FB81E74DA86536852D /* Pods-qCocoa_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83EAD303960EF4A5D2496BEC7E409A79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882E643EE7C2793D73F11DAB40E9D6B2 /* Pods-qCocoa_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39DF605AF5A5AD6AE89ABDC3C97922F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0258F994E92B1A5F77645457BBCD4981 /* qCocoa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E7DC1BA01ECD0CFCED39986BB4C623C /* Pods-qCocoa_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D1C6EE1473D87E40C40E28A068DED4 /* Build configuration list for PBXNativeTarget "Pods-qCocoa_Tests" */;
+			buildPhases = (
+				6110BF6F54420C6DB203C8FA9A3609C4 /* Headers */,
+				A0000145C8DB2715FAEFE23AEB036E46 /* Sources */,
+				8FD5FB81C1EB545F894953B89538AF2E /* Frameworks */,
+				D5167AA270BD869709DD62FEAA81D9AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222475BC0200D4F3E5CE9AF8777D23ED /* PBXTargetDependency */,
+			);
+			name = "Pods-qCocoa_Tests";
+			productName = "Pods-qCocoa_Tests";
+			productReference = E3D3E364148F2540B2403FDADE494828 /* Pods_qCocoa_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB72D19CDC92184F4FDA07E8673980BB /* qCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC406BF36DA8465C49FE4A85BF1505A /* Build configuration list for PBXNativeTarget "qCocoa" */;
+			buildPhases = (
+				C39DF605AF5A5AD6AE89ABDC3C97922F /* Headers */,
+				134BF5FB20BFB92253C67437AEEB164D /* Sources */,
+				8F1263898E2F57EB88531E587C748C32 /* Frameworks */,
+				447323F2BAF72B361F902953F4888D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qCocoa;
+			productName = qCocoa;
+			productReference = D9D4CAE968E1F3C6DF75C93E1CB02ED8 /* qCocoa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F487D0E06A3D79E0E902FA6FF2ED3ECC /* Pods-qCocoa_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498B3D789ED4759E28A7FCFBFA3DB5D9 /* Build configuration list for PBXNativeTarget "Pods-qCocoa_Example" */;
+			buildPhases = (
+				83EAD303960EF4A5D2496BEC7E409A79 /* Headers */,
+				0B618F394FE5E110B0BB8FBE43DA932A /* Sources */,
+				43074D56642A254554CBF04997C58B9A /* Frameworks */,
+				8EC9B5854B979D0147808C9A816AECE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFFFA5CFA9D9D091667166F3B1E93D24 /* PBXTargetDependency */,
+			);
+			name = "Pods-qCocoa_Example";
+			productName = "Pods-qCocoa_Example";
+			productReference = A21779A22E85C39587E916E5B84DF193 /* Pods_qCocoa_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F3510D73F792ABBB88DE15F73405D9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F487D0E06A3D79E0E902FA6FF2ED3ECC /* Pods-qCocoa_Example */,
+				6E7DC1BA01ECD0CFCED39986BB4C623C /* Pods-qCocoa_Tests */,
+				BB72D19CDC92184F4FDA07E8673980BB /* qCocoa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		447323F2BAF72B361F902953F4888D84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC9B5854B979D0147808C9A816AECE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5167AA270BD869709DD62FEAA81D9AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B618F394FE5E110B0BB8FBE43DA932A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EECE3AFB7484E869F97084DD2A5AA60 /* Pods-qCocoa_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		134BF5FB20BFB92253C67437AEEB164D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B883B1BCB4F867B5041119BEF2E58EB /* qCocoa-dummy.m in Sources */,
+				81B5409627BAB6B477004B46B85CEE74 /* qCocoa.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0000145C8DB2715FAEFE23AEB036E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04F487EA55164E80492C35EBA8E8905 /* Pods-qCocoa_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222475BC0200D4F3E5CE9AF8777D23ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-qCocoa_Example";
+			target = F487D0E06A3D79E0E902FA6FF2ED3ECC /* Pods-qCocoa_Example */;
+			targetProxy = 8F99D35D982654BC168C59C97A8C3FA3 /* PBXContainerItemProxy */;
+		};
+		BFFFA5CFA9D9D091667166F3B1E93D24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = qCocoa;
+			target = BB72D19CDC92184F4FDA07E8673980BB /* qCocoa */;
+			targetProxy = 14B84AA05879C127B0D6C0ABDDEAA5AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		082DBCD26602ECB567E43EA4D253CC77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDF2B23A55E2ADC9F6BA576CAF11573 /* Pods-qCocoa_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qCocoa_Example/Pods-qCocoa_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qCocoa_Example/Pods-qCocoa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		316730D883390E9BCD5A27A51B4C22B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15610F89B19859F45F0598494530EEBA /* qCocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qCocoa/qCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qCocoa/qCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qCocoa/qCocoa.modulemap";
+				PRODUCT_MODULE_NAME = qCocoa;
+				PRODUCT_NAME = qCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39AC03C369374EBBE299098FCEDCBC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549C4682F80004B908D04648FD15AAD4 /* Pods-qCocoa_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qCocoa_Tests/Pods-qCocoa_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qCocoa_Tests/Pods-qCocoa_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		545744E22E80366D99CEFF078F1FFD61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15610F89B19859F45F0598494530EEBA /* qCocoa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/qCocoa/qCocoa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/qCocoa/qCocoa-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/qCocoa/qCocoa.modulemap";
+				PRODUCT_MODULE_NAME = qCocoa;
+				PRODUCT_NAME = qCocoa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6892CEE2B8DF845A5FF751C2BD5E8A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6842AF1B088F6D44E0D0EDC64B04DA /* Pods-qCocoa_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qCocoa_Tests/Pods-qCocoa_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qCocoa_Tests/Pods-qCocoa_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE68BD6A7E2235FB2051B0C29BF2751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7E1807B0AD9D032610573170A2699B /* Pods-qCocoa_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-qCocoa_Example/Pods-qCocoa_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-qCocoa_Example/Pods-qCocoa_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498B3D789ED4759E28A7FCFBFA3DB5D9 /* Build configuration list for PBXNativeTarget "Pods-qCocoa_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082DBCD26602ECB567E43EA4D253CC77 /* Debug */,
+				AE68BD6A7E2235FB2051B0C29BF2751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC406BF36DA8465C49FE4A85BF1505A /* Build configuration list for PBXNativeTarget "qCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545744E22E80366D99CEFF078F1FFD61 /* Debug */,
+				316730D883390E9BCD5A27A51B4C22B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D1C6EE1473D87E40C40E28A068DED4 /* Build configuration list for PBXNativeTarget "Pods-qCocoa_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6892CEE2B8DF845A5FF751C2BD5E8A55 /* Debug */,
+				39AC03C369374EBBE299098FCEDCBC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

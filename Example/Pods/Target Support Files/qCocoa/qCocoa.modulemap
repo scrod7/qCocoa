@@ -1,0 +1,6 @@
+framework module qCocoa {
+  umbrella header "qCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}

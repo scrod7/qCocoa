@@ -1,0 +1,16 @@
+PODS:
+  - qCocoa (0.1.0)
+
+DEPENDENCIES:
+  - qCocoa (from `../`)
+
+EXTERNAL SOURCES:
+  qCocoa:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  qCocoa: 369be59eaa8d00ef1d434840d74b50373de97f64
+
+PODFILE CHECKSUM: 78f1bdd7ea5c7556a3aae8700a0ed60f72f92cf3
+
+COCOAPODS: 1.6.0.beta.2
