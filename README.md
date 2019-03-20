@@ -27,3 +27,4 @@ xueyu7, xueyuqi_tju@163.com
 ## License
 
 qCocoa is available under the MIT license. See the LICENSE file for more info.
+# qqCocoa
